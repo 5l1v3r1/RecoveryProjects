@@ -104,7 +104,12 @@ namespace RecoverWifiGui
             this.Close();
         }
 
-        
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Made by youhacker55", "WIFI Recovery", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Process.Start("https://github.com/youhacker55/");
+
+        }
     }
 
 }
